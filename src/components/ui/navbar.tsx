@@ -9,14 +9,14 @@ import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler"
 const navItems = [
     { name: "About", href: "#about", icon: User },
     { name: "Projects", href: "#projects", icon: Code },
-    { name: "Achievements", href: "#achievements", icon: Handshake },
+    { name: "Involvement", href: "#involvement", icon: Handshake },
     { name: "Skills", href: "#skills", icon: GraduationCap },
     { name: "Contact", href: "#contact", icon: Mail },
 ]
 
 export function Navbar() {
     return (
-        <div className="fixed top-0 left-0 right-0 z-50 flex justify-center pt-6 pb-4 bg-background border-b-[1px] border-foreground">
+        <div className="sticky top-0 left-0 right-0 z-50 flex justify-center pt-6 pb-4 bg-background/80 backdrop-blur-sm border-b-[1px] border-foreground/10">
             <nav className="flex items-center gap-2 whitespace-nowrap">
                 {navItems.map((item) => (
                     <Link

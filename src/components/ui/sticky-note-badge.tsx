@@ -14,7 +14,7 @@ const colorStyles: Record<StickyNoteColor, string> = {
     pink: "bg-[#ffd1dc] text-black",
     blue: "bg-[#00b0ff] text-black",
     green: "bg-[#00e676] text-black",
-    purple: "bg-[#aa00ff] text-white",
+    purple: "bg-[#aa00ff] text-slate-50",
 };
 
 export function StickyNoteBadge({

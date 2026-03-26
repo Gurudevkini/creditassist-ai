@@ -98,6 +98,10 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .dark {
   --background: oklch(18.674% 0.00002 271.152);
   --foreground: oklch(91.661% 0.00106 11.759);
